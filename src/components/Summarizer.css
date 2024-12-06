@@ -1,0 +1,192 @@
+/* Summarizer.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F3F4F6; /* Light gray for soft background */
+    margin: 0;
+    padding: 0;
+}
+
+.summarizer-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff; /* Clean white background for content */
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #1D3557; /* Dark blue-gray for the title */
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    background-color: #E9F1F7; /* Light blue-gray background for textarea */
+    border: 1px solid #A8D0E6; /* Subtle blue border */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    resize: vertical;
+    color: #333;
+}
+
+.summarize-btn {
+    padding: 12px 25px;
+    background-color: #1D3557; /* Dark blue-gray for the button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease;
+}
+
+.summarize-btn:hover {
+    background-color: #457B9D; /* Lighter blue-gray on hover */
+}
+
+.summary-container {
+    padding: 20px;
+    background-color: #F1FAEE; /* Soft cream background for summary */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.summary-title {
+    font-size: 1.5rem;
+    color: #1D3557; /* Dark blue-gray for summary title */
+}
+
+.summary-text {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.save-btn {
+    padding: 12px 25px;
+    background-color: #FF6F61; /* Warm coral color for save button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.save-btn:disabled {
+    background-color: #D3D3D3; /* Gray color for disabled save button */
+    cursor: not-allowed;
+}
+
+.save-btn:hover {
+    background-color: #D44C36; /* Darker coral color on hover */
+}
+
+.save-message {
+    color: #4CAF50; /* Green color for success message */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.saved-summaries-title {
+    font-size: 1.8rem;
+    color: #1D3557; /* Dark blue-gray for saved summaries title */
+    margin-bottom: 20px;
+}
+
+.summaries-list {
+    list-style: none;
+    padding: 0;
+}
+
+.summary-item {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #F9FAFB; /* Light gray background for summary item */
+    border: 1px solid #E1E1E1; /* Light gray border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.summary-item-text {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.edit-btn, .delete-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.edit-btn {
+    background-color: #FFB03B; /* Golden yellow for edit button */
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #E69A3A; /* Darker yellow on hover */
+}
+
+.delete-btn {
+    background-color: #D32F2F; /* Bold red for delete button */
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #C62828; /* Darker red on hover */
+}
+
+.no-summaries-message {
+    color: #777;
+    font-style: italic;
+}
+
+.edit-container {
+    padding: 20px;
+    background-color: #F1FAEE; /* Soft cream for edit container */
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.edit-title {
+    font-size: 1.5rem;
+    color: #1D3557; /* Dark blue-gray for edit title */
+    margin-bottom: 10px;
+}
+
+.update-btn {
+    padding: 12px 25px;
+    background-color: #D32F2F; /* Bold red for update button */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.update-btn:hover {
+    background-color: #C62828; /* Darker red on hover */
+}
